@@ -107,6 +107,7 @@ Reset the slider to its initial state.
 
 ## Example
 
+### HTML
 ```html
 <div class="slider">
     <div class="slider__viewport">
@@ -151,6 +152,7 @@ Reset the slider to its initial state.
   </div>
 ```
 
+### CSS
 ```css
 :root {
   --slide-spacing: 1rem;
