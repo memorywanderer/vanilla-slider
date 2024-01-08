@@ -24,9 +24,10 @@ Create a new instance of the Slider class by providing a configuration object:
 
 ```js
 const config = {
-  containerClass: '.slider-container',
-  slideClass: '.slide',
-  // Add other optional configuration properties
+  containerClass: '.slider__container',
+  slideClass: '.slider__slide',
+  slidesPerView: 3,
+  slideSpacing: 16,
 };
 
 const mySlider = new Slider(config);
