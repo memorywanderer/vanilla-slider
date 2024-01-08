@@ -1,0 +1,53 @@
+:root {
+  --slide-spacing: 1rem;
+  --slide-size: 33%;
+  --slide-height: 19rem;
+}
+
+.slider {
+  padding: 1.6rem;
+}
+
+.slider__viewport {
+  overflow: hidden;
+}
+
+.slider__container {
+  transition: transform 300ms;
+  margin-left: calc(var(--slide-spacing) * -1);
+  display: flex;
+  backface-visibility: hidden;
+}
+
+.slider__slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(46, 80, 218);
+  flex: 0 0 var(--slide-size);
+  min-width: 0;
+  margin-left: var(--slide-spacing);
+  position: relative;
+  height: var(--slide-height);
+}
+
+.red {
+  background-color: rgb(177, 28, 41);
+}
+
+.blue {
+  background-color: rgb(46, 80, 218);
+}
+
+.green {
+  background-color: rgb(42, 175, 84);
+}
+
+.yellow {
+  background-color: rgb(165, 157, 36);
+}
+
+.text {
+  font-size: 5rem;
+  color: white;
+}
